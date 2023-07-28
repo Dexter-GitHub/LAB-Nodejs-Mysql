@@ -44,7 +44,7 @@ var app = http.createServer(function(request, response) {
 		author.update_process(request, response);
 	}
 	else if (pathname === '/author/delete_process') {
-		uthor.delete_process(request, response);
+		author.delete_process(request, response);
 	}
 	else {
 		response.writeHead(404);
